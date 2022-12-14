@@ -37,7 +37,7 @@ jobs:
         with:
           aws_access_key: AKIATEYQXHJHPD2SODSO
           aws_secret_key: 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
-          use_existing_version_if_available: false
+          use_existing_version_if_available: true
           application_name: github_action
           environment_name: Githubaction-env
           version_label: ${{github.SHA}}
